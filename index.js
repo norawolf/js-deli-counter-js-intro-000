@@ -19,21 +19,16 @@ function nowServing(katzDeliLine) {
 //  [loopBody]; }
 
 function currentLine(line, name) {
+  var customer = [];
 
  if (katzDeliLine.lengh === 0) {
    return "The line is currently empty."
  } else if {
-   for (var i = 0; i < line.length; i++) {
-
+   for (let i = 0; i < line.length; i++) {
+     customer.push(`The line is currently: ${i}. ${name}`);
    }
-   return 
+  
  }
-
-
-
-  //if (katzDeliLine.lenth > 0){
-    //var i = 0
-    //var announce = `The line is currently ${i++}. ${name}`
 
 
 }
