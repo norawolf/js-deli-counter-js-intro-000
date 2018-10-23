@@ -23,7 +23,7 @@ function currentLine(line, name) {
 
  if (katzDeliLine.lengh === 0) {
    return "The line is currently empty."
- } else if {
+ } else if (katzDeliLine > 0) {
    for (let i = 0; i < line.length; i++) {
      customer.push(`The line is currently: ${i}. ${name},`);
    }
