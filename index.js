@@ -1,0 +1,39 @@
+// imagine var katzDeliLine = []; is present
+
+function takeANumber(line, name) {
+  line.push(name);
+  return `Welcome, ${name}. You are number ${line.length} in line.`
+}
+
+function nowServing(katzDeliLine) {
+  if (katzDeliLine.length > 0) {
+    var announce = `Currently serving ${katzDeliLine[0]}.`
+    katzDeliLine.shift();
+    return announce
+  } else if (katzDeliLine.length === 0){
+    return "There is nobody waiting to be served!";
+  }
+}
+
+//for ([initialization]; [condition]; [iteration]) {
+//  [loopBody]; }
+
+function currentLine(line, name) {
+
+ if (katzDeliLine.lengh === 0) {
+   return "The line is currently empty."
+ } else if {
+   for (var i = 0; i < line.length; i++) {
+
+   }
+   return 
+ }
+
+
+
+  //if (katzDeliLine.lenth > 0){
+    //var i = 0
+    //var announce = `The line is currently ${i++}. ${name}`
+
+
+}
