@@ -27,7 +27,7 @@ function currentLine(line, name) {
    for (let i = 0; i < line.length; i++) {
      customer.push(`${i}. ${name},`);
    }
-   return `The line is currently: ${customer}
+   return `The line is currently: ${customer}`
  }
 
 
