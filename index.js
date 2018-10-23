@@ -18,7 +18,7 @@ function nowServing(katzDeliLine) {
 //for ([initialization]; [condition]; [iteration]) {
 //  [loopBody]; }
 
-function currentLine(line, name) {
+function currentLine(line) {
   const customer = [];
 
  if (line.length === 0) {
