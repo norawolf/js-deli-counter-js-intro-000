@@ -25,9 +25,9 @@ function currentLine(line, name) {
    return "The line is currently empty."
  } else if {
    for (let i = 0; i < line.length; i++) {
-     customer.push(`The line is currently: ${i}. ${name}`);
+     customer.push(`The line is currently: ${i}. ${name},`);
    }
-  
+   return customer
  }
 
 
