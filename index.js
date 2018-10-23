@@ -19,7 +19,7 @@ function nowServing(katzDeliLine) {
 //  [loopBody]; }
 
 function currentLine(line, name) {
-  var customer = [];
+  const customer = [];
 
  if (line.length === 0) {
    return "The line is currently empty."
